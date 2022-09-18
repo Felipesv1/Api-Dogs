@@ -9,7 +9,7 @@ border-radius:12px;
 
 
 @media (max-width:800px) {
-    width:200px;
+    max-width:200px;
     text-align:center
   }
 
@@ -28,7 +28,8 @@ background:darkslateblue;
   border-radius:15px;
 
   @media (max-width:800px) {
-    width:300px;
+    max-width:100%;
+    height:100%;
     text-align:center
   }
 

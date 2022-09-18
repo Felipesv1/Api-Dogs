@@ -6,4 +6,11 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+
+  @media (max-width:800px) {
+  body{
+    background:darkslateblue;
+  }
+  }
+
 `;
